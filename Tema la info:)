@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+int n;
+int i;
+int d;
+int x;
+int o;
+
+
+
+cin >> n;
+
+if (n>=0 && n<=1000){
+o=2;
+for (i=1;i<=n;i++){
+x=1;
+d=o;
+while (d!=1){
+x++;
+if(d%x==0 && x!=d) {
+d++;
+x=2;}
+else if (x==d) { cout << d << " ";
+o=d+1;
+d=1;}
+
+
+
+
+
+
+
+
+}
+}
+
+}
+   }
+
+//tema problema 373
